@@ -1,6 +1,6 @@
 
 # Library Checklist
-
+- [x] Batteries
 - [x] Buttons_Switches_Keyboard
 - [x] Buttons_Switches_SMD
 - [x] Buttons_Switches_THT
@@ -8,79 +8,61 @@
 - [x] Capacitors_SMD
 - [x] Capacitors_Tantalum_SMD
 - [x] Capacitors_THT
+- [x] Connectors_Amphenol
 - [x] Connectors_Card
 - [x] Connectors_DSub
 - [x] Connectors_Harwin
 - [x] Connectors_HDMI
-- [ ] Connectors_Hirose
+- [x] Connectors_Hirose
 - [x] Connectors_IDC
-- [ ] Connectors_IEC_DIN
-- [ ] Connectors_JAE
+- [ ] Connectors_IEC_DIN - waiting for script merge. See https://github.com/KiCad/Connectors_IEC_DIN.pretty/pull/7
+- [x] Connectors_JAE
 - [x] Connectors_JST
-- [ ] Connectors_Mini-Universal
-- [ ] Connectors_Molex
-  - [x] CLIK-mate
-  - [ ] FFC
-  - [x] KK
-  - [x] MegaFit
-  - [x] MicroFit 3.0
-  - [x] MicroLatch
-  - [x] Microfit3 (duplicate of 3.0?)
-  - [x] MiniFit-JR
-  - [x] MiniFit-SR
-  - [x] NanoFit
-  - [x] Panelmate
-  - [x] Pico-EZMate
-  - [x] PicoBlade
-  - [x] PicoClasp
-  - [x] PicoFlex
-  - [x] PicoLock
-  - [x] SPOX
-  - [x] Sabre
-  - [x] SlimStack
+- [x] Connectors_Mini-Universal
+- [x] Connectors_Molex
 - [x] Connectors_Multicomp
 - [x] Connectors_Phoenix
-- [ ] Connectors_Samtec
-- [ ] Connectors_TE-Connectivity
-- [ ] Connectors_Tab (Tab / Blade connectors)
-- [ ] Connectors_Terminal_Blocks
+- [x] Connectors_Samtec
+- [x] Connectors_TE-Connectivity
+- [x] Connectors_Tab (Tab / Blade connectors) old repo is empty -> nothing to do
+- [x] Connectors_Terminal_Blocks
 - [x] Connectors_TestPoints
-- [ ] Connectors_WAGO
+- [x] Connectors_WAGO
 - [x] Connectors_USB
 - [ ] Connectors
-  - [ ] 3M
-  - [ ] Audio Jacks
-  - [ ] Banana Jacks
-  - [ ] Barrel Jacks
-  - [ ] Batteries (CR1220/CR2032)
-  - [ ] C64/C96
-  - [ ] CNT3BRCMS
-  - [ ] CUI_PD-30
-  - [ ] Coaxials (BNC, SMA, SMB)
-  - [ ] FMC
-  - [ ] Fan-Pinheaders
-  - [ ] GS (SolderJumper)
-  - [ ] GTK2400
-  - [ ] GoldTek
-  - [ ] Grove
-  - [ ] HE10
-  - [ ] IQRF
-  - [ ] JWT
-  - [ ] NMJ6
-  - [ ] PCI/ISA/... EdgeMounted connectors
-  - [ ] Pins
-  - [ ] QMS
-  - [ ] RJ11/45
-  - [ ] SAS
-  - [ ] SATA
-  - [ ] SD/microSD-card receptables
-  - [ ] SOC
+  - [x] 3M
+  - [x] Audio Jacks
+  - [x] Banana Jacks
+  - [x] Barrel Jacks
+  - [x] Batteries (CR1220/CR2032)
+  - [ ] <s>C64/C96</s> duplicates of footprints found in Connectors_IEC_DIN
+  - [ ] <s>CNT3BRCMS</s> no corresponding part found, dropped
+  - [x] CUI_PD-30
+  - [x] Coaxials (BNC, SMA, SMB)
+  - [x] FMC
+  - [x] Fan-Pinheaders
+  - [x] GS (SolderJumper)
+  - [ ] <s>GTK2400</s> no part found
+  - [ ] <s>GoldTek</s> no part found
+  - [x] Grove
+  - [x] HE10
+  - [ ] <s>IQRF</s> no part found
+  - [x] JWT
+  - [x] NMJ6
+  - [x] PCI/ISA/... EdgeMounted connectors
+  - [x] Pins
+  - [ ] QMS -> needs major rework and checking against datasheet.
+  - [x] RJ11/45
+  - [x] SAS
+  - [x] SATA
+  - [x] SD/microSD-card receptables
+  - [ ] <s>SOC</s> no part found
   - [ ] TE_Futurebus+
-  - [ ] Tag-Connect
-  - [ ] USBs
-  - [ ] Wafer
-  - [ ] XLR3/5
-- [ ] Converters_DCDC_ACDC
+  - [x] Tag-Connect
+  - [x] USBs
+  - [ ] <s>Wafer</s> no part found
+  - [ ] <s>XLR3/5</s> no part found
+- [x] Converters_DCDC_ACDC
 - [x] Crystals
 - [x] Diodes_SMD
 - [x] Diodes_THT
@@ -89,9 +71,9 @@
 - [x] Enclosures
 - [x] EuroBoard_Outline
 - [x] Fiducials
-- [ ] Fuse_Holders_and_Fuses
+- [x] Fuse_Holders_and_Fuses
 - [x] Hall-Effect_Transducers_LEM
-- [ ] Heatsinks
+- [x] Heatsinks
 - [x] Housings_BGA
 - [x] Housings_CSP
 - [x] Housings_DFN_QFN
@@ -107,15 +89,15 @@
 - [x] Inductors_SMD
 - [x] Inductors_THT
 - [x] LEDs
-- [ ] Measurement_Scales
-- [ ] Microwave
-- [ ] Modules
+- [x] Measurement_Scales
+- [ ] <s>Microwave</s> very bad footprints, will not be moved to the new repo
+- [x] Modules
 - [x] Mounting_Holes
-- [ ] Opto-Devices
-- [ ] Oscillators
+- [x] Opto-Devices
+- [x] Oscillators
 - [x] Package_DirectFET
 - [x] Pin_Headers
-- [ ] Potentiometers
+- [x] Potentiometers
 - [x] Power_Integrations
 - [x] Relays_SMD
 - [x] Relays_THT
@@ -140,4 +122,4 @@
 - [x] Transformers_THT
 - [x] Valves
 - [x] Varistors
-- [ ] Wire_Pads
+- [x] Wire_Pads
